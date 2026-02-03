@@ -41,12 +41,12 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(255, 0, 200);
     display: flex;
     margin-top: 20px;
 }
@@ -67,7 +67,7 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px rgb(0, 255, 242) ridge;
+    border: 4px rgb(0, 119, 255) ridge;
     padding: 8px;
     margin-top: 20px;
 }
