@@ -73,7 +73,7 @@ var circles = []; // variable to store all circles in an array
            game.checkCirclePosition(circles[4]);
 
             // TODO 8 / TODO 9 : Iterate over the array
-             function update() {
+           
     // TODO 8 / 9 : Iterate over the array to update position and check boundaries
     for (var i = 0; i < circles.length; i++) {
         var eachCircle = circles[i];
@@ -81,9 +81,9 @@ var circles = []; // variable to store all circles in an array
         physikz.updatePosition(eachCircle);
         game.checkCirclePosition(eachCircle);
     }
-}
+}     
             
-        }
+
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -120,7 +120,7 @@ var circles = []; // variable to store all circles in an array
 
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
-        }
+        
         
         /////////////////////////////////////////////////////////////
         // --- NO CODE BELOW HERE  --- DO NOT REMOVE THIS CODE --- //
@@ -136,7 +136,7 @@ var circles = []; // variable to store all circles in an array
         
         app.addUpdateable(window.opspark.game);
     }
-
+};
 
 // DO NOT REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
@@ -144,3 +144,4 @@ if((typeof process !== 'undefined') &&
     // here, export any references you need for tests //
     module.exports = init;
 }
+
